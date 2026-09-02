@@ -23,14 +23,6 @@ app.get("/users", function (req, res) {
   });
 });
 
-app.post("/users", function (req, res) {
-  const values = Object.values(req.body);
-  const sql = "insert into users(username,lastname,firstname,passwd,email,urole) values(?,?,?,?,?,?)";
-  pool.execute(sql, values, function (err, result, fields) {
-    res.json(result);
-  });
-});
-
 
 app.listen(3000, function () {
   console.log("Listening on port 3000..");
