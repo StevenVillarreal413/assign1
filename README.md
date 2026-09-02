@@ -14,4 +14,4 @@ sudo mysql < assign1.sql
 ```
 
 Example of the Page with the User Listing.
-<img src="webapijs.png">
+<img src="Screenshot.png">
