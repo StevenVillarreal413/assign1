@@ -8,4 +8,10 @@ This assignment will provide a simple full-stack SPA application that provides a
 
 Your client-side JavaScript code will go in the **public/users.js** file.
 
+Create Local MySQL database using *assign1.sql* script.
+```
+sudo mysql < assign1.sql
+```
+
+Example of the Page with the User Listing.
 <img src="webapijs.png">
