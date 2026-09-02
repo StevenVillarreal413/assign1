@@ -1,0 +1,14 @@
+All quotes in this, past, and future notes, are quotes from the prof.
+
+[GitHub link to fork of work]
+
+json - javascript object notation
+Find out more about what this is exactly
+
+let user = {id: 1, Name: "Joe"};
+"everything between the curly brackets is json format"
+
+"res.json(result); is the handler for the successful result of the query, and what's being sent back to the client."
+
+"back ticks allows me to not have to concatenate everything"
+He also said something about "template literals"
